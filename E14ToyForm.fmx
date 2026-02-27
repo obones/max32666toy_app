@@ -1,0 +1,1135 @@
+object frmE14Toy: TfrmE14Toy
+  Left = 0
+  Top = 0
+  Caption = 'e14toy app'
+  ClientHeight = 567
+  ClientWidth = 384
+  Fill.Color = claSeagreen
+  Fill.Kind = Solid
+  FormFactor.Width = 1440
+  FormFactor.Height = 900
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Header: TToolBar
+    Size.Width = 384.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object HeaderLabel: TLabel
+      Align = Contents
+      Size.Width = 384.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.HorzAlign = Center
+      Text = 'e14 toy'
+    end
+  end
+  object Footer: TToolBar
+    Align = Bottom
+    Position.Y = 519.000000000000000000
+    Size.Width = 384.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 1
+    object cmbNextColor: TComboColorBox
+      Align = RightCenter
+      Color = claWhite
+      Margins.Right = 10.000000000000000000
+      Position.X = 314.000000000000000000
+      Position.Y = 13.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object btnSend: TButton
+      Align = Center
+      Size.Width = 70.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Send'
+      OnClick = btnSendClick
+    end
+    object edtCOMPort: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = LeftCenter
+      TabOrder = 2
+      Text = 'COM8'
+      Position.X = 10.000000000000000000
+      Position.Y = 13.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Center
+    Size.Width = 384.000000000000000000
+    Size.Height = 384.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    ColumnCollection = <
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Rectangle1
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = Rectangle2
+        Row = 0
+      end
+      item
+        Column = 2
+        Control = Rectangle3
+        Row = 0
+      end
+      item
+        Column = 3
+        Control = Rectangle4
+        Row = 0
+      end
+      item
+        Column = 4
+        Control = Rectangle5
+        Row = 0
+      end
+      item
+        Column = 5
+        Control = Rectangle6
+        Row = 0
+      end
+      item
+        Column = 6
+        Control = Rectangle7
+        Row = 0
+      end
+      item
+        Column = 7
+        Control = Rectangle8
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = Rectangle9
+        Row = 1
+      end
+      item
+        Column = 1
+        Control = Rectangle10
+        Row = 1
+      end
+      item
+        Column = 2
+        Control = Rectangle11
+        Row = 1
+      end
+      item
+        Column = 3
+        Control = Rectangle12
+        Row = 1
+      end
+      item
+        Column = 4
+        Control = Rectangle13
+        Row = 1
+      end
+      item
+        Column = 5
+        Control = Rectangle14
+        Row = 1
+      end
+      item
+        Column = 6
+        Control = Rectangle15
+        Row = 1
+      end
+      item
+        Column = 7
+        Control = Rectangle16
+        Row = 1
+      end
+      item
+        Column = 0
+        Control = Rectangle17
+        Row = 2
+      end
+      item
+        Column = 1
+        Control = Rectangle18
+        Row = 2
+      end
+      item
+        Column = 2
+        Control = Rectangle19
+        Row = 2
+      end
+      item
+        Column = 3
+        Control = Rectangle20
+        Row = 2
+      end
+      item
+        Column = 4
+        Control = Rectangle21
+        Row = 2
+      end
+      item
+        Column = 5
+        Control = Rectangle22
+        Row = 2
+      end
+      item
+        Column = 6
+        Control = Rectangle23
+        Row = 2
+      end
+      item
+        Column = 7
+        Control = Rectangle24
+        Row = 2
+      end
+      item
+        Column = 0
+        Control = Rectangle25
+        Row = 3
+      end
+      item
+        Column = 1
+        Control = Rectangle26
+        Row = 3
+      end
+      item
+        Column = 2
+        Control = Rectangle27
+        Row = 3
+      end
+      item
+        Column = 3
+        Control = Rectangle28
+        Row = 3
+      end
+      item
+        Column = 4
+        Control = Rectangle29
+        Row = 3
+      end
+      item
+        Column = 5
+        Control = Rectangle30
+        Row = 3
+      end
+      item
+        Column = 6
+        Control = Rectangle31
+        Row = 3
+      end
+      item
+        Column = 7
+        Control = Rectangle32
+        Row = 3
+      end
+      item
+        Column = 0
+        Control = Rectangle33
+        Row = 4
+      end
+      item
+        Column = 1
+        Control = Rectangle34
+        Row = 4
+      end
+      item
+        Column = 2
+        Control = Rectangle35
+        Row = 4
+      end
+      item
+        Column = 3
+        Control = Rectangle36
+        Row = 4
+      end
+      item
+        Column = 4
+        Control = Rectangle37
+        Row = 4
+      end
+      item
+        Column = 5
+        Control = Rectangle38
+        Row = 4
+      end
+      item
+        Column = 6
+        Control = Rectangle39
+        Row = 4
+      end
+      item
+        Column = 7
+        Control = Rectangle40
+        Row = 4
+      end
+      item
+        Column = 0
+        Control = Rectangle41
+        Row = 5
+      end
+      item
+        Column = 1
+        Control = Rectangle42
+        Row = 5
+      end
+      item
+        Column = 2
+        Control = Rectangle43
+        Row = 5
+      end
+      item
+        Column = 3
+        Control = Rectangle44
+        Row = 5
+      end
+      item
+        Column = 4
+        Control = Rectangle45
+        Row = 5
+      end
+      item
+        Column = 5
+        Control = Rectangle46
+        Row = 5
+      end
+      item
+        Column = 6
+        Control = Rectangle47
+        Row = 5
+      end
+      item
+        Column = 7
+        Control = Rectangle48
+        Row = 5
+      end
+      item
+        Column = 0
+        Control = Rectangle49
+        Row = 6
+      end
+      item
+        Column = 1
+        Control = Rectangle50
+        Row = 6
+      end
+      item
+        Column = 2
+        Control = Rectangle51
+        Row = 6
+      end
+      item
+        Column = 3
+        Control = Rectangle52
+        Row = 6
+      end
+      item
+        Column = 4
+        Control = Rectangle53
+        Row = 6
+      end
+      item
+        Column = 5
+        Control = Rectangle54
+        Row = 6
+      end
+      item
+        Column = 6
+        Control = Rectangle55
+        Row = 6
+      end
+      item
+        Column = 7
+        Control = Rectangle56
+        Row = 6
+      end
+      item
+        Column = 0
+        Control = Rectangle57
+        Row = 7
+      end
+      item
+        Column = 1
+        Control = Rectangle58
+        Row = 7
+      end
+      item
+        Column = 2
+        Control = Rectangle59
+        Row = 7
+      end
+      item
+        Column = 3
+        Control = Rectangle60
+        Row = 7
+      end
+      item
+        Column = 4
+        Control = Rectangle61
+        Row = 7
+      end
+      item
+        Column = 5
+        Control = Rectangle62
+        Row = 7
+      end
+      item
+        Column = 6
+        Control = Rectangle63
+        Row = 7
+      end
+      item
+        Column = 7
+        Control = Rectangle64
+        Row = 7
+      end>
+    RowCollection = <
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end
+      item
+        Value = 12.500000000000000000
+      end>
+    object Rectangle1: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle2: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 48.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle3: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 96.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle4: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 144.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle5: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 192.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle6: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 240.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle7: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 288.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle8: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 336.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle9: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.Y = 48.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle10: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 48.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle11: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 96.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle12: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 144.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle13: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 192.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle14: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 240.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle15: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 288.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle16: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 336.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle17: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.Y = 96.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle18: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 48.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle19: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 96.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle20: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 144.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle21: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 192.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle22: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 240.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle23: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 288.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle24: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 336.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle25: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.Y = 144.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle26: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 48.000000000000000000
+      Position.Y = 144.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle27: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 96.000000000000000000
+      Position.Y = 144.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle28: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 144.000000000000000000
+      Position.Y = 144.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle29: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 192.000000000000000000
+      Position.Y = 144.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle30: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 240.000000000000000000
+      Position.Y = 144.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle31: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 288.000000000000000000
+      Position.Y = 144.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle32: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 336.000000000000000000
+      Position.Y = 144.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle33: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.Y = 192.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle34: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 48.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle35: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 96.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle36: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 144.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle37: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 192.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle38: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 240.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle39: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 288.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle40: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 336.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle41: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.Y = 240.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle42: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 48.000000000000000000
+      Position.Y = 240.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle43: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 96.000000000000000000
+      Position.Y = 240.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle44: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 144.000000000000000000
+      Position.Y = 240.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle45: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 192.000000000000000000
+      Position.Y = 240.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle46: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 240.000000000000000000
+      Position.Y = 240.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle47: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 288.000000000000000000
+      Position.Y = 240.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle48: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 336.000000000000000000
+      Position.Y = 240.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle49: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.Y = 288.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle50: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 48.000000000000000000
+      Position.Y = 288.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle51: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 96.000000000000000000
+      Position.Y = 288.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle52: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 144.000000000000000000
+      Position.Y = 288.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle53: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 192.000000000000000000
+      Position.Y = 288.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle54: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 240.000000000000000000
+      Position.Y = 288.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle55: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 288.000000000000000000
+      Position.Y = 288.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle56: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 336.000000000000000000
+      Position.Y = 288.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle57: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.Y = 336.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle58: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 48.000000000000000000
+      Position.Y = 336.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle59: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 96.000000000000000000
+      Position.Y = 336.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle60: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 144.000000000000000000
+      Position.Y = 336.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle61: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 192.000000000000000000
+      Position.Y = 336.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle62: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 240.000000000000000000
+      Position.Y = 336.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle63: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 288.000000000000000000
+      Position.Y = 336.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+    object Rectangle64: TRectangle
+      Anchors = []
+      Fill.Color = claBlack
+      Position.X = 336.000000000000000000
+      Position.Y = 336.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claDarkgray
+      OnMouseUp = RectangleMouseUp
+    end
+  end
+end
